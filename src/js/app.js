@@ -1,4 +1,5 @@
-import * as MB from './modules/mobile-button.js';
-import * as RowForm from './modules/form.js';
-
-
+import './modules/mobile-button.js';
+import './modules/form.js';
+import './modules/phonemask.js';
+import './modules/NavSelect.js';
+import './modules/tabs.js';

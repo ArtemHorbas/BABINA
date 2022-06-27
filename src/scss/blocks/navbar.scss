@@ -1,7 +1,7 @@
 
 nav{
 	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 100px;
 }
 
 .nav-row {
@@ -11,6 +11,7 @@ nav{
 }
 
 .nav-logo{
+	
 	transition: transform 0.2s ease-in;
 
 	&:hover{
@@ -81,14 +82,18 @@ nav{
 }
 
 .nav-list-language{
-	position: relative;
+	display: flex;
+	align-items: center;
 
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 30px;
 
-	&::after{
+	cursor: pointer;
+
+
+	/* &::after{
 		position: absolute;
 		right: -20px;
 		top: 50%;
@@ -98,6 +103,29 @@ nav{
 		width: 16px;
 		height: 16px;
 		background-image: url('@img/navbar/arrow.svg');
+	} */
+}
+
+.nav-languges--select{
+	display: none;
+	justify-content: end;
+
+	ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	li{
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 30px;
+
+		cursor: pointer;
+	}
+
+	&--active{
+		display: flex;
 	}
 }
 

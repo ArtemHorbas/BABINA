@@ -1,5 +1,3 @@
-//<-----SELECT------>
-
 const selectBtn = document.querySelector('.nav-list-language')
 const selectList = document.querySelector('.nav-languges--select')
 const options = document.querySelectorAll('.languages-option')

@@ -1,0 +1,102 @@
+#pricing{
+    background: #f9f7fc;
+    font-family: Montserrat, sans-serif;
+    margin-top: 200px;
+}
+  
+.pricing_row{
+    display: flex;
+    justify-content: space-between;
+	 flex-wrap: wrap;
+    font-size: 18px;
+
+	 @media(max-width: 900px){
+		justify-content: center;
+		row-gap: 40px;
+	 }
+}
+
+.buttons_row{
+   
+    max-width:420px;
+    button{display: block}
+    display: flex; 
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pricing_buttons h1 {
+	 font-size: 44px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+
+	 @media(max-width: 460px){
+		font-size: 30px;
+	 }
+
+	 @media(max-width: 332px){
+		font-size: 24px;
+	 }
+}
+
+#sign_up{
+    margin-top: 20px;
+}
+
+.h1_wrap{
+    display: flex;
+    gap: 10px;
+
+    #pidorik{
+        color:#FF8B7A
+    }
+}
+
+.new_button{
+    box-sizing: border-box;
+    padding: 8px 20px;
+    border-radius: 24px;
+}
+
+#features{
+    color: #FF8B7A;
+    border: 1px solid #FFD1CA;
+    background: #FFF1EF;
+}
+#members{
+    border: 1px solid #FFAC2F;
+    color: #FFAC2F;
+}
+#workflows{
+    border: 1px solid #3ACD77;
+    color: #3ACD77;
+}
+#calendars{
+    border: 1px solid #2BC0CA;
+
+    color: #2BC0CA;
+}
+#meetings{
+    border: 1px solid #C140FD;
+
+    color: #C140FD;
+}
+
+.main_pricing{
+	img{
+		@media(max-width: 440px){
+			width: 350px;
+			height: 350px;
+		}
+
+		@media(max-width: 372px){
+			width: 280px;
+			height: 280px;
+		}
+
+		@media(max-width: 300px){
+			width: 220px;
+			height: 220px;
+		}
+	}
+}
